@@ -1,5 +1,5 @@
 import React from "react";
-import DarkNavbar from "../../components/Navbar/DarkNavbar";
+import Navbar from "../../components/Navbar/Navbar";
 import {
   FaLinkedin,
   FaFacebookSquare,
@@ -13,14 +13,17 @@ function ComingSoon() {
   return (
     <>
       <div className="coming_soon">
-        <DarkNavbar />
+        <Navbar />
         <div className="coming_container"></div>
 
-        <h1 className="coming_title">SOMETHING AWESOME IS</h1>
-        <h1 className="coming_title">COMING SOON</h1>
+        <h1 className="coming_title">
+          SOMETHING AWESOME IS <br />
+          COMING SOON
+        </h1>
+
         <p className="coming_subtitle">
-          Your all-in-one affiliate marketing tracking software{" "}
-          <strong>track</strong> ,<strong>automate</strong> and <br />
+          Your all-in-one affiliate marketing tracking software
+          <strong>track</strong> ,<strong> automate</strong> and <br />
           <strong>optimize</strong> your campaigns.
         </p>
 
