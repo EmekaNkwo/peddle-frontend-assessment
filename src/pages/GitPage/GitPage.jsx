@@ -10,7 +10,7 @@ function GitPage() {
   const [Repos, setRepos] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
 
-  const [loading, setLoading] = useState(true);
+  const [loading] = useState(true);
   const [repoPerPage] = useState(10);
 
   const loadRepos = async () => {
@@ -35,6 +35,7 @@ function GitPage() {
 
   useEffect(() => {
     loadRepos();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentPage]);
 
   return (
