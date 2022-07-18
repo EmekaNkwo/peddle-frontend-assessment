@@ -13,11 +13,12 @@
 }
 
 .pagination button {
-  padding: 0.5rem;
+  padding: 0.8rem;
   border: none;
+  font-size: 1.1rem;
   border-radius: 4px;
   font-weight: 500;
-  background-color: #271ac1;
+  background-color: #171717;
   color: #fff;
   cursor: pointer;
 }
@@ -27,9 +28,9 @@
     max-width: 960px;
   }
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1080px) {
   .git_page_container {
-    max-width: 540px;
+    max-width: 720px;
   }
 
   .git_page .git_page_container h1 {
