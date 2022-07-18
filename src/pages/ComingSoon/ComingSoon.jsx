@@ -22,7 +22,7 @@ function ComingSoon() {
         </h1>
 
         <p className="coming_subtitle">
-          Your all-in-one affiliate marketing tracking software
+          Your all-in-one affiliate marketing tracking software{" "}
           <strong>track</strong> ,<strong> automate</strong> and <br />
           <strong>optimize</strong> your campaigns.
         </p>
