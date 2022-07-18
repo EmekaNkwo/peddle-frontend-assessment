@@ -49,3 +49,9 @@
   background-color: #271ac1;
   color: #fff;
 }
+
+@media only screen and (max-width: 1080px) {
+  .nav_links {
+    display: none;
+  }
+}
