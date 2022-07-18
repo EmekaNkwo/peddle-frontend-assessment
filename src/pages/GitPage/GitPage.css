@@ -28,11 +28,15 @@
     max-width: 960px;
   }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1350px) {
   .git_page_container {
     max-width: 720px;
   }
-
+}
+@media only screen and (max-width: 720px) {
+  .git_page_container {
+    max-width: 500px;
+  }
   .git_page .git_page_container h1 {
     font-size: 1.35rem;
   }

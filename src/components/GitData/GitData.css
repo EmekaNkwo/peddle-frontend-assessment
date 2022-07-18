@@ -79,3 +79,8 @@
     flex-direction: column;
   }
 }
+@media only screen and (max-width: 720px) {
+  .repo_details h2 {
+    font-size: 1rem;
+  }
+}
