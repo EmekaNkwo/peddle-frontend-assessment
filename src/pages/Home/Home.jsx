@@ -16,7 +16,7 @@ function Home() {
                 <div className="task_text">
                   <p>
                     Reproduce the coming soon design prototype in either jsx or
-                    tsx and css <br />
+                    tsx and css <br /> <br />
                     <strong>
                       "https://xd.adobe.com/view/b9ed8245-2809-4b31-a3c4-5c2e76ddb7e8-ecbe/?fullscreen"
                     </strong>
@@ -31,10 +31,9 @@ function Home() {
                   <p>
                     To get the most starred Github repos created in the last 30
                     days (relative to 2021-09-13), you'll need to call the
-                    following endpoint : <br />
+                    following endpoint : <br /> <br />
                     <strong>
                       https://api.github.com/search/repositories?q=created:&gt;2021-08-13&sort=stars&order=desc
-                      "https://xd.adobe.com/view/b9ed8245-2809-4b31-a3c4-5c2e76ddb7e8-ecbe/?fullscreen"
                     </strong>
                   </p>
                 </div>
