@@ -1,7 +1,7 @@
 .nav_container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1.5rem;
 }
 
@@ -50,7 +50,25 @@
   color: #fff;
 }
 
+@media only screen and (min-width: 1400px) {
+  .nav_container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
 @media only screen and (max-width: 1080px) {
+  .nav_container {
+    justify-content: space-around;
+  }
+
+  .nav_logo a img {
+    width: 50px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
   .nav_links {
     display: none;
   }
