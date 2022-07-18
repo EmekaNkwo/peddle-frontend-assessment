@@ -1,5 +1,7 @@
 .home {
-  margin: 3rem auto;
+  margin: 0 auto;
+  background: url("../../assets/bg.svg");
+  height: 100vh;
 }
 
 .home_container {
@@ -7,14 +9,18 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 2rem;
+}
+
+.home_title {
+  color: white;
 }
 
 .tasks {
   margin-top: 3rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4rem;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .tasks a {
@@ -27,8 +33,14 @@
   width: 400px;
   border-radius: 10px;
   text-align: left;
-  padding: 0.3rem;
-  background-color: rgb(239, 239, 239);
+  padding: 1rem;
+  background-color: rgb(237, 237, 237);
+}
+
+.task_item:hover {
+  transform: translateY(-3px);
+  filter: drop-shadow(0px 0px 5px rgb(232, 203, 58));
+  transition: 0.3s;
 }
 
 .task_item h2 {
@@ -37,15 +49,11 @@
 
 .task_item .task_img {
   position: relative;
-  margin: 1rem auto;
-  overflow: hidden;
+  margin: auto;
   width: 360px;
+  height: 100%;
 
   border-radius: 10px;
-}
-
-.task_item .task_img img {
-  width: 100%;
 }
 
 .task_text {
@@ -54,4 +62,5 @@
 
 .task_text p {
   font-weight: 500;
+  text-align: center;
 }
